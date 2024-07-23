@@ -15,7 +15,8 @@ from core.views import (
     CorViewSet,
     MarcaViewSet,
     UserViewSet,
-    ModeloViewSet
+    ModeloViewSet,
+    VeiculoViewSet,
    
 )
 
@@ -27,6 +28,7 @@ router.register(r"cores", CorViewSet, basename="cores")
 router.register(r"marcas", MarcaViewSet, basename="marcas")
 router.register(r"modelos", ModeloViewSet, basename="modelos")
 router.register(r"usuarios", UserViewSet, basename="usuarios")
+router.register(r"veiculos", VeiculoViewSet, basename="veiculos")
 
 
 urlpatterns = [

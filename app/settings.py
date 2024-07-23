@@ -154,8 +154,8 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.0",
 }
 
-PASSAGE_APP_ID = os.getenv("PASSAGE_APP_ID", "app_id")
-PASSAGE_API_KEY = os.getenv("PASSAGE_API_KEY", "api_key")
+PASSAGE_APP_ID = os.getenv("zaRrdnAROZuaa2D6z5ggWlDY")
+PASSAGE_API_KEY = os.getenv("T1yiiC3fhCa.gckkMjeUdcbhc7dn5ODcodcyuC6XgePLanL5v7XctocrKF6U1If35joqq0qpOOyh")
 PASSAGE_AUTH_STRATEGY = 2
 
 print(f"{MODE = } \n{MEDIA_URL = } \n{DATABASES = }")
