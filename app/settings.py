@@ -134,10 +134,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "core.User"
 
 REST_FRAMEWORK = {
-    # "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework_simplejwt.authentication.JWTAuthentication",),
-    # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissions",),
-    # "DEFAULT_AUTHENTICATION_CLASSES": ("core.authentication.TokenAuthentication",),
-    # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly",),
+     "DEFAULT_AUTHENTICATION_CLASSES": ("rest_framework_simplejwt.authentication.JWTAuthentication",),
+     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissions",),
+     "DEFAULT_AUTHENTICATION_CLASSES": ("core.authentication.TokenAuthentication",),
+     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly",),
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "PAGE_SIZE": 10,
@@ -154,8 +154,8 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "1.0.0",
 }
 
-PASSAGE_APP_ID = os.getenv("zaRrdnAROZuaa2D6z5ggWlDY")
-PASSAGE_API_KEY = os.getenv("T1yiiC3fhCa.gckkMjeUdcbhc7dn5ODcodcyuC6XgePLanL5v7XctocrKF6U1If35joqq0qpOOyh")
+PASSAGE_APP_ID = os.getenv("k2PWbDj7oOUSbEXyXN7tLqWC")
+PASSAGE_API_KEY = os.getenv("Dv986HHdgc.HAeHvOpgLnTCVNTqBNixCanoo5WU4h6yYllmbxoIFMb8TvySwIXhdw3gaArCnoEN")
 PASSAGE_AUTH_STRATEGY = 2
 
 print(f"{MODE = } \n{MEDIA_URL = } \n{DATABASES = }")
